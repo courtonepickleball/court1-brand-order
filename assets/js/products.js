@@ -412,22 +412,10 @@ window.PRODUCTS = [
   {
     id: 'FAPADDLE-MAGICE1EABL',
     name: 'Franklin Accessories PADDLE-MAGIC Eraser 1ea black',
-    price: 20000,
+    price: 25000,
     image: './assets/images/FAPADDLE-MAGICE1EABL.webp',
     images: [
       './assets/images/FAPADDLE-MAGICE1EABL.webp'
-    ],
-    featured: true,
-    special: false,
-    active: true
-  },
-  {
-    id: 'FAPADDLEC1EABL',
-    name: 'Franklin Accessories PADDLE Cover 1ea black-gold',
-    price: 25000,
-    image: './assets/images/FAPADDLEC1EABL.webp',
-    images: [
-      './assets/images/FAPADDLEC1EABL.webp'
     ],
     featured: true,
     special: false,
@@ -445,6 +433,18 @@ window.PRODUCTS = [
     special: false,
     active: true
   }
+]    id: 'FAPADDLEC1EABL',
+    name: 'Franklin Accessories PADDLE Cover 1ea black-gold',
+    price: 15300,
+    price: 25000,
+    image: './assets/images/FAPADDLEC1EABL.webp',
+    images: [
+      './assets/images/FAPADDLEC1EABL.webp'
+@@ -458,4 +458,4 @@ window.CART_CODES = [
+  'P4J8','85M6','C920','F8A6','1XB7','7680','HWZ0','P247','0O9A','1J20',
+  '6Z37','9EUH','0NS9','S446','5URT','IR0U','HGDM','H22K','1BNJ','0F43',
+  'GNW3','3X15','5E49','82T7','4A8K','U148','DHER','6149','F5PD','CEKI'
+];
 ];
 
 window.CART_CODES = [

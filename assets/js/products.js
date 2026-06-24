@@ -424,7 +424,7 @@ window.PRODUCTS = [
   {
     id: 'FAPADDLEC1EABL',
     name: 'Franklin Accessories PADDLE Cover 1ea black-gold',
-    price: 15300,
+    price: 25000,
     image: './assets/images/FAPADDLEC1EABL.webp',
     images: [
       './assets/images/FAPADDLEC1EABL.webp'

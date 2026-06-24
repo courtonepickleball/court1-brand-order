@@ -412,7 +412,7 @@ window.PRODUCTS = [
   {
     id: 'FAPADDLE-MAGICE1EABL',
     name: 'Franklin Accessories PADDLE-MAGIC Eraser 1ea black',
-    price: 25000,
+    price: 20000,
     image: './assets/images/FAPADDLE-MAGICE1EABL.webp',
     images: [
       './assets/images/FAPADDLE-MAGICE1EABL.webp'

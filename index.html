@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Court1 Brand Order</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="splashScreen" class="splash-screen">
+    <img id="splashLogo" src="./assets/images/logo.png" alt="Court1 Logo" class="splash-image">
+    <img id="splashEmblem" src="./assets/images/emblem.png" alt="Court1 Emblem" class="splash-image splash-emblem is-hidden">
+  </div>
+
+  <div id="court1-brand-order" class="page-wrap">
+    <header class="page-header">
+      <div class="brand-kicker">COURT1 BRAND ORDER FORM</div>
+      <h1 class="brand-title">Pickleball Gear Order</h1>
+      <p class="brand-subtitle">코드를 입력·코드 없음으로 주문시작 </p>
+    </header>
+
+    <section class="panel-card">
+      <div class="code-bar">
+        <input id="customerCode" class="code-input" type="text" placeholder="코드번호 입력">
+        <button id="checkCode" type="button" class="more-btn">코드 확인</button>
+        <button id="clearCode" type="button" class="more-btn">코드 없음</button>
+      </div>
+      <div id="promoState" class="promo-state" style="display:none;"></div>
+    </section>
+
+    <section class="panel-card">
+  <div class="top-filter-row">
+    <button id="showAllProducts" type="button" class="more-btn">전체 보기</button>
+    <button id="resetFilters" type="button" class="more-btn">필터 초기화</button>
+  </div>
+
+  <div class="filter-title-row">
+    <div class="filter-title">브랜드</div>
+    <div id="brandFilters" class="filter-group"></div>
+  </div>
+
+  <div class="filter-title-row">
+    <div class="filter-title">카테고리</div>
+    <div id="categoryFilters" class="filter-group"></div>
+  </div>
+
+  <div class="sort-group">
+    <label><input type="radio" name="sortType" value="default" checked> 기본</label>
+    <label><input type="radio" name="sortType" value="price-asc"> 낮은 가격</label>
+    <label><input type="radio" name="sortType" value="price-desc"> 높은 가격</label>
+  </div>
+</section>
+
+    <section class="panel-card product-panel">
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <section class="panel-card cart-section">
+      <h2>장바구니 <span id="cartCount">0</span></h2>
+      <div id="cartList"></div>
+      <div class="cart-footer">
+        <div class="cart-total">합계: <strong id="cartTotal">₩0</strong></div>
+        <button id="clearCart" type="button" class="more-btn">장바구니 비우기</button>
+      </div>
+    </section>
+
+    <form id="orderForm" class="panel-card">
+      <div class="panel-title">주문 정보</div>
+      <div id="orderCodeInfo" class="order-code-info"></div>
+
+      <div class="field compact">
+        <label for="customerName">이름</label>
+        <input id="customerName" type="text" required>
+      </div>
+
+      <div class="field compact">
+        <label for="customerPhone">연락처</label>
+        <input id="customerPhone" type="tel" required>
+      </div>
+
+      <div class="field compact">
+        <label>배송 방식</label>
+        <div class="inline-radios">
+          <label><input type="radio" name="deliveryType" value="pickup" checked> 직접 수령</label>
+          <label><input type="radio" name="deliveryType" value="delivery"> 택배 배송</label>
+        </div>
+      </div>
+
+      <div id="addressWrap" class="field compact is-hidden">
+        <label for="customerAddress">주소</label>
+        <textarea id="customerAddress" placeholder="택배 받으실 주소를 입력"></textarea>
+      </div>
+
+      <div class="field compact">
+        <label for="customerMemo">메모</label>
+        <textarea id="customerMemo" placeholder="요청사항"></textarea>
+      </div>
+
+      <button type="submit" class="email-order-btn">이메일로 주문하기</button>
+      <p class="order-note">코드번호가 확인된 주문자는 견적 회신시 코드 할인가가 적용 됩니다</p>
+    </form>
+  </div>
+
+  <script src="./assets/js/products.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

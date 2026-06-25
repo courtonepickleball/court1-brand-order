@@ -521,7 +521,7 @@ syncAddressUI();
 updateModeButtons();
 renderOrderInfo();
 
-const products = Array.isArray(window.PRODUCTS) ? window.PRODUCTS.filter(p => p && p.active) : [];
+const filteredProducts = Array.isArray(window.PRODUCTS) ? window.PRODUCTS.filter(p => p && p.active) : [];
 const CART_CODES = Array.isArray(window.CART_CODES) ? window.CART_CODES : [];
 const cart = JSON.parse(localStorage.getItem('cart') || '[]');
 

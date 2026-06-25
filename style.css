@@ -241,6 +241,7 @@ section.panel-card.cart-section,
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
   min-height: calc(1.28em * 4);
 }
@@ -711,4 +712,27 @@ body.ready .page-wrap {
 #splashEmblem.fade-in {
   opacity: 1;
   transform: scale(1);
+}@media screen and (max-width: 768px) {
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .product-item {
+    width: calc(50% - 6px);
+    box-sizing: border-box;
+  }
+
+  .product-name {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.28;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+  }
 }

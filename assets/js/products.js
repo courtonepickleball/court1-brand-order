@@ -412,7 +412,7 @@ window.PRODUCTS = [
   {
     id: 'FAPADDLE-MAGICE1EABL',
     name: 'Franklin Accessories PADDLE-MAGIC Eraser 1ea black',
-    price: 20000,
+    price: 25000,
     image: './assets/images/FAPADDLE-MAGICE1EABL.webp',
     images: [
       './assets/images/FAPADDLE-MAGICE1EABL.webp'
@@ -424,7 +424,7 @@ window.PRODUCTS = [
   {
     id: 'FAPADDLEC1EABL',
     name: 'Franklin Accessories PADDLE Cover 1ea black-gold',
-    price: 15300,
+    price: 25000,
     image: './assets/images/FAPADDLEC1EABL.webp',
     images: [
       './assets/images/FAPADDLEC1EABL.webp'

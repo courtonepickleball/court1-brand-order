@@ -174,7 +174,7 @@ function renderVisibleProducts(list) {
         ${hasMultipleImages(product) ? `<button type="button" class="img-switch-btn" data-switch="${product.id}">이미지 변경</button>` : ''}
       </div>
       <div class="product-body">
-        <div class="productname">${product.name}</div>
+        <div class="product-name">${product.name}</div>
         <div class="product-meta-row">
           <div class="price-main">${formatPrice(product.price)}</div>
           ${renderBadges(product)}
@@ -184,8 +184,7 @@ function renderVisibleProducts(list) {
     </article>
   `).join('');
 }
-<<<<<<< HEAD
-=======
+HEAD
 function renderProducts() {
   renderVisibleProducts(getVisibleProducts());
 }
@@ -525,9 +524,6 @@ renderOrderInfo();
 const filteredProducts = Array.isArray(window.PRODUCTS) ? window.PRODUCTS.filter(p => p && p.active) : [];
 const CART_CODES = Array.isArray(window.CART_CODES) ? window.CART_CODES : [];
 const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-
-const grid = document.getElementById('productGrid');
-const cartList = document.getElementById('cartList');
 const cartTotal = document.getElementById('cartTotal');
 const cartCount = document.getElementById('cartCount');
 const promoState = document.getElementById('promoState');
@@ -708,7 +704,6 @@ function renderVisibleProducts(list) {
     </article>
   `).join('');
 }
->>>>>>> c36cdba (Fix app.js)
 
 function renderProducts() {
   renderVisibleProducts(getVisibleProducts());

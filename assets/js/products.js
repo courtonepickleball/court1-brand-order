@@ -2,7 +2,7 @@ window.PRODUCTS = [
   {
     id: 'FPANNA-LEIGH-WATERS_SIGNATUREA16WH',
     name: 'Franklin Paddle ANNA-LEIGH-WATERS_SIGNATURE Aurelious 16mm white',
-    price: 510000,
+    price: 460000,
     image: './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA16WH.webp',
     images: [
       './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA16WH.webp'
@@ -14,7 +14,7 @@ window.PRODUCTS = [
   {
     id: 'FPANNA-LEIGH-WATERS_SIGNATUREA14WH',
     name: 'Franklin Paddle ANNA-LEIGH-WATERS_SIGNATURE Aurelious 14mm white',
-    price: 510000,
+    price: 460000,
     image: './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA14WH.webp',
     images: [
       './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA14WH.webp'
@@ -26,7 +26,7 @@ window.PRODUCTS = [
   {
     id: 'FPANNA-LEIGH-WATERS_SIGNATUREA12.7WH',
     name: 'Franklin Paddle ANNA-LEIGH-WATERS_SIGNATURE Aurelious 12.7mm white',
-    price: 510000,
+    price: 460000,
     image: './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA12.7WH.webp',
     images: [
       './assets/images/FPANNA-LEIGH-WATERS_SIGNATUREA12.7WH.webp'
@@ -38,7 +38,7 @@ window.PRODUCTS = [
   {
     id: 'FPPARRIS-TODD_C45S13.25HO',
     name: 'Franklin Paddle PARRIS-TODD_C45 Series 13.25mm hotpink-surt blue',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPPARRIS-TODD_C45S13.25HO.webp',
     images: [
       './assets/images/FPPARRIS-TODD_C45S13.25HO.webp'
@@ -50,7 +50,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBONH14LA',
     name: 'Franklin Paddle C45-CARBON Hayden-Series 14mm laguna',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBONH14LA.webp',
     images: [
       './assets/images/FPC45-CARBONH14LA.webp'
@@ -62,7 +62,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBONT16RE',
     name: 'Franklin Paddle C45-CARBON Tempo 16mm red',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBONT16RE.webp',
     images: [
       './assets/images/FPC45-CARBONT16RE.webp'
@@ -74,7 +74,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBONT14RE',
     name: 'Franklin Paddle C45-CARBON Tempo 14mm red',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBONT14RE.webp',
     images: [
       './assets/images/FPC45-CARBONT14RE.webp'
@@ -86,7 +86,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBOND16MI',
     name: 'Franklin Paddle C45-CARBON Dynasty 16mm mint',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBOND16MI.webp',
     images: [
       './assets/images/FPC45-CARBOND16MI.webp'
@@ -98,7 +98,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBOND16RE',
     name: 'Franklin Paddle C45-CARBON Dynasty 16mm red',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBOND16RE.webp',
     images: [
       './assets/images/FPC45-CARBOND16RE.webp'
@@ -110,7 +110,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBOND14MI',
     name: 'Franklin Paddle C45-CARBON Dynasty 14mm mint',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBOND14MI.webp',
     images: [
       './assets/images/FPC45-CARBOND14MI.webp'
@@ -122,7 +122,7 @@ window.PRODUCTS = [
   {
     id: 'FPC45-CARBOND14RE',
     name: 'Franklin Paddle C45-CARBON Dynasty 14mm red',
-    price: 410000,
+    price: 460000,
     image: './assets/images/FPC45-CARBOND14RE.webp',
     images: [
       './assets/images/FPC45-CARBOND14RE.webp'
